@@ -1,21 +1,19 @@
-##Laravel Demo Project
+# Laravel Demo Project
 
 
-#Clone the project
-
-
+## Clone the project
 
 ``` git@github.com:SamiAibeche/laravel_demo.git ```
 
 ------------------------------------
 
-#Clone the project
+## Clone the project
 
-Create the SQL Database (name : passport ) and import the SQL DUMP into.
+Create the SQL Database (name : *passport* ) and import the SQL DUMP into.
 
 ------------------------------------
 
-#Create the .env. file
+## Create the .env. file
 
 
 ```
@@ -64,15 +62,15 @@ Create the SQL Database (name : passport ) and import the SQL DUMP into.
 
 ------------------------------
 
-#Use the Laravel's encrypter
+## Use the Laravel's encrypter
 
-    Before using Laravel's encrypter, you must set a key option in your config/app.php configuration file. You should use the
+    Before using Laravel's encrypter, you must set a key option in your **config/app.php** configuration file. You should use the
 
-    ``` php artisan key:generate ```
+``` php artisan key:generate ```
     
 ------------------------------
 
-#Locally build/start the container
+## Locally build/start the container
 
 ``` php -S localhost:8888 -t public ```
 
