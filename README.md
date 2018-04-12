@@ -2,25 +2,23 @@ Laravel Demo Project
 ====================
 
 1. Clone the project
---------------------
-
-.. code-block:: console
-
-    git@github.com:SamiAibeche/laravel_demo.git
 
 
-2. Clone the project
---------------------
 
-.. code-block:: console
+``` git@github.com:SamiAibeche/laravel_demo.git ```
 
-    Create the SQL Database (name : passport ) and import the SQL DUMP into.
-
-
-3. Create the .env. file
 ------------------------------------
 
-.. code-block:: console
+2. Clone the project
+
+``` Create the SQL Database (name : passport ) and import the SQL DUMP into. ```
+
+------------------------------------
+
+3. Create the .env. file
+
+
+```
 
     APP_NAME=Laravel
     APP_ENV=local
@@ -61,20 +59,21 @@ Laravel Demo Project
     
     MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
     MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+    
+```
 
-
-4. Use the Laravel's encrypter
 ------------------------------
 
-    ##Before using Laravel's encrypter, you must set a key option in your config/app.php configuration file. You should use the
-    
-.. code-block:: console
+4. Use the Laravel's encrypter
 
-    php artisan key:generate
+    #Before using Laravel's encrypter, you must set a key option in your config/app.php configuration file. You should use the
+
+------------------------------
+   
+``` php artisan key:generate ```
 
 5. Locally build/start the container
+
+``` php -S localhost:8888 -t public ```
+
 ------------------------------------
-
-.. code-block:: console
-
-    php -S localhost:8888 -t public
