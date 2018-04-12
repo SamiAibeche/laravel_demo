@@ -7,7 +7,7 @@
 
 ------------------------------------
 
-## Clone the project
+## Create the database
 
 Create the SQL Database (name : *passport* ) and import the SQL DUMP into.
 
@@ -64,7 +64,7 @@ Create the SQL Database (name : *passport* ) and import the SQL DUMP into.
 
 ## Use the Laravel's encrypter
 
-    Before using Laravel's encrypter, you must set a key option in your **config/app.php** configuration file. You should use the
+Before using Laravel's encrypter, you must set a key option in your **config/app.php** configuration file. You should use the following command : 
 
 ``` php artisan key:generate ```
     
